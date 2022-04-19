@@ -13,5 +13,5 @@ plot(data$Time, as.numeric(data$Global_active_power), type = "l", xlab = "",
      ylab = "Global Active Power (kilowatts)")
 
 # Create png file and turn off graphics device
-dev.copy(png, "plot2.png")
+dev.copy(png, "plot2.png", height = 480, width = 480)
 dev.off()

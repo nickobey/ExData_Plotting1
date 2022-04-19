@@ -7,5 +7,5 @@ hist(as.numeric(data$Global_active_power), col = "red", main = "Global Active Po
      xlab = "Global Active Power (kilowatts)", ylab = "Frequency")
 
 # Create png file and turn off graphics device
-dev.copy(png, "plot1.png")
+dev.copy(png, "plot1.png", height = 480, width = 480)
 dev.off()
